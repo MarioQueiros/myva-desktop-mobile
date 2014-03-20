@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HMAC Authentication HTML</title>
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <script type="text/javascript" src="js/hmac-sha1.js"></script>
+    </head>
+    <body>
+
+        <h3>MyVa</h3>
+
+        <div class="loggedIn">
+            <span class="name"></span>
+            <a href="#" class="sendRequest">Send a request to /test</a>
+        </div>
+
+        <div class="loggedOut">
+            <a href="#" class="sendRequest">Try to send a request to /test (without being logged in)</a>    
+
+            <h3>Sign in Below</h3>
+            <form id="loginForm">
+
+                <p><label>Username</label><input type="text" id="username" /></p>
+                <p><label>Password</label><input type="password" id="password" /></p>
+                <p><a href="#" id="login">Login</a></p>
+
+            </form>
+
+            <h3>Sign up Below</h3>
+            <form id="registerForm">
+
+                <p><label>Username</label><input type="text" id="Susername" /></p>
+                <p><label>Password</label><input type="password" id="Spassword" /></p>
+                <p><label>Email&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="email" id="Semail" /></p>
+                <p><label>Birthday&nbsp;&nbsp;</label><input type="text" id="Sbirth"></p>
+                <p><a href="#" id="register">Register</a> </p>
+
+            </form>
+
+            <h3>Confirm Account</h3>
+            <form id="confirmForm">
+                <p><label>Username</label><input type="text" id="Cusername" /></p>
+                <p><label>Code&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label><input type="text" id="code" /></p>
+                <p><a href="#" id="confirm">Confirm</a> </p>
+
+            </form>
+
+
+        </div>
+        <script src="js/script.js" type="text/javascript"></script>
+    </body>
+</html>

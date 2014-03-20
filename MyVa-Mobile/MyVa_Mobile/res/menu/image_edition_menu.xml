@@ -1,0 +1,50 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:title="@string/overflow">
+        
+        <menu>
+            <item
+                android:id="@+id/blue"
+                android:icon="@drawable/blue"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/blue"/>
+            <item
+                android:id="@+id/red"
+                android:icon="@drawable/red"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/red"/>
+             <item
+                android:id="@+id/green"
+                android:icon="@drawable/green"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/green"/>
+             
+             <item
+                android:id="@+id/grey"
+                android:icon="@drawable/gray"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/grey"/>
+             <item
+                android:id="@+id/black"
+                android:icon="@drawable/black"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/black"/>
+              <item
+                android:id="@+id/white"
+                android:icon="@drawable/white"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/white"/>   
+                
+              <item
+                android:id="@+id/yellow"
+                android:icon="@drawable/yellow"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/yellow"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "MyVa",
+  "description": "The event tracker of your life!",
+  "version": "1.0",
+  "background": {
+    "page": "background.html"
+  },
+  "browser_action": {
+    "default_icon": "icon_19.png"
+  },
+  "icons":
+   {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+  "content_security_policy": "script-src 'self' 'unsafe-eval' https://; object-src 'self'",
+  "permissions": [
+    "https://*/*",
+	"https://mpapq.myftp.org/api/api/*",
+    "cookies",
+	"tts",
+	"tabs"]
+}

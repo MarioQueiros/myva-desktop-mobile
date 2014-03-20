@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login_id"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/White" >
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dip" >
+
+            <!-- Username Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/editTextUsername"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="5dip"
+                android:focusable="false"
+                android:singleLine="true" />
+            <!-- Password Label -->
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#372c24" />
+
+            <EditText
+                android:id="@+id/editTextPassword"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dip"
+                android:focusable="false"
+                android:password="true"
+                android:singleLine="true" />
+            <!--
+             <TextView
+                android:id="@+id/link_to_resend_pass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="10dip"
+                android:text="Forgot password?"
+                android:textColor="@color/DarkBlue"
+                android:textSize="14dip" />
+            -->
+            <!-- Login button -->
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dip"
+                android:text="Login" />
+            <!-- Link to Registration Screen -->
+
+            <TextView
+                android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dip"
+                android:layout_marginTop="40dip"
+                android:gravity="center"
+                android:text="New user? Register here"
+                android:textColor="@color/DarkBlue"
+                android:textSize="20dip" />
+
+            <TextView
+                android:id="@+id/link_to_confirm"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="40dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="Click to confirm your account"
+                android:textColor="@color/DarkBlue"
+                android:textSize="20dip" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

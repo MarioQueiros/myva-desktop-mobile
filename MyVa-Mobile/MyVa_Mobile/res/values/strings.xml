@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyVa</string>
+    <string name="action_settings">Settings</string>
+    <string name="events">Events</string>
+    <string name="events_all">Events - All</string>
+    <string name="event_desc">Event Description</string>
+    <string name="new_event">New Event</string>
+    <string name="sync">Synchronize</string>
+    <string name="settings">Settings</string>
+    <string name="overflow">overflow</string>
+    <string name="help">Help</string>
+    <string name="config">Config</string>
+    <string name="add_event">Add</string>
+    <string name="delete_event">Delete</string>
+    <string name="create_event">Create Event</string>
+    <string name="save">Save</string>
+    <string name="name">Name:</string>
+    <string name="location">Location:</string>
+    <string name="date">Date:</string>
+    <string name="image">Image:</string>
+    <string name="micro">Microphone</string>
+    <string name="events_today">Events - Today</string>
+    <string name="events_tomorrow">Tomorrow</string>
+    <string name="events_7days">Events - 7 Days</string>
+    <string name="event_image">Edit Image</string>
+    <string name="user_name">Dimitri Parlenya</string>
+    <string name="map">Map</string>
+    <string name="map_title">Choose Location</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="create_event_date_hint">Click here to choose a date</string>
+    <string name="create_event_name_hint">Click here or select the microphone to add a description</string>
+    <string name="create_event_location_hint">Choose the map or select de checkbox to add a previous location</string>
+    <string name="clear">Clear</string>
+    <string name="blue">Blue</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="grey">Grey</string>
+    <string name="white">White</string>
+    <string name="black">Black</string>
+    <string name="yellow">Yellow</string>
+
+</resources>

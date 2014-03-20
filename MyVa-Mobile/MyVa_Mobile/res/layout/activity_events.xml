@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Main Layout -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#262626"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/txtView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/txtView1"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:padding="8dp"
+                android:textColor="@color/White"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:padding="8dp"
+                android:text="@string/events"
+                android:textColor="@color/White"
+                android:textSize="20sp" />
+        </RelativeLayout>
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_weight="1.0"
+            android:dividerHeight="2dip" >
+        </ListView>
+
+        <RelativeLayout
+            android:id="@+id/pubRelativeLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical" >
+
+            <com.google.ads.AdView
+                xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+                android:id="@+id/adView"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                ads:adSize="SMART_BANNER"
+                ads:adUnitId="ca-app-pub-5724491097453649/5012063011"
+                ads:loadAdOnCreate="true"
+                ads:testDevices="TEST_EMULATOR, TEST_DEVICE_ID" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!-- Slide Menu Layout -->
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="start"
+        android:background="?android:attr/activatedBackgroundIndicator"
+        android:orientation="vertical"
+        android:weightSum="100" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#262626"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/user_logo"
+                android:layout_width="43dp"
+                android:layout_height="43dp"
+                android:contentDescription="@string/app_name"
+                android:paddingTop="5dp"
+                android:src="@drawable/ic_action_person" />
+
+            <TextView
+                android:id="@+id/txt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="40dp"
+                android:paddingTop="5dp"
+                android:textColor="@color/White"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/txt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt1"
+                android:paddingBottom="1dp"
+                android:paddingLeft="40dp"
+                android:textColor="@color/White"
+                android:textSize="12sp" />
+        </RelativeLayout>
+
+        <View
+            android:id="@+id/line"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:background="@android:color/darker_gray" />
+
+        <ListView
+            android:id="@+id/left_drawer"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:layout_weight="19"
+            android:background="#262626"
+            android:choiceMode="singleChoice"
+            android:divider="#30FFFFFF"
+            android:dividerHeight="2dip" />
+
+        <View
+            android:id="@+id/buttonsLine"
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="@color/LightGrey" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="start"
+            android:layout_weight="81.0"
+            android:background="@color/LightGrey"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button_add"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/slidebarbuttonsbackground"
+                android:drawableLeft="@android:drawable/ic_menu_add"
+                android:text="@string/add_event"
+                android:textColor="@drawable/slidebarbuttons" />
+
+            <View
+                android:id="@+id/verticalLine"
+                android:layout_width="3dp"
+                android:layout_height="fill_parent"
+                android:background="@color/LightGrey"
+                android:orientation="vertical" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1.0"
+                android:background="@drawable/slidebarbuttonsbackground"
+                android:drawableLeft="@android:drawable/ic_menu_delete"
+                android:text="@string/delete_event"
+                android:textColor="@drawable/slidebarbuttons" />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

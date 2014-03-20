@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="5">
+    
+	<RelativeLayout
+	    android:id="@+id/viewpagerLayout"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="1"
+   	    android:orientation="vertical"
+   	    android:background="#262626">
+
+		<android.support.v4.view.ViewPager
+	   		android:id="@+id/view_pager"
+	   		android:layout_width="fill_parent"
+	   		android:layout_height="wrap_content"
+	   		android:layout_alignParentTop="true"/>
+		
+		<View
+	       android:id="@+id/line"
+	       android:layout_width="fill_parent"
+	       android:layout_height="3dp"
+	       android:layout_alignParentBottom="true"
+	       android:background="@color/LightGrey"></View>
+	</RelativeLayout>
+	
+	
+	<RelativeLayout
+	    android:id="@+id/areaTrabalho"
+	    android:layout_width="fill_parent"
+   	    android:layout_height="0dp"
+   	    android:layout_weight="3.4"
+   	    android:orientation="vertical"
+   	   >
+	</RelativeLayout>
+
+	<View
+	    android:id="@+id/line1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="3dp"
+	    android:background="@color/LightGrey"/>
+
+	  	<LinearLayout
+	  	    android:layout_width="fill_parent"
+	   	    android:layout_height="0dp"
+	   	    android:layout_weight="0.6"
+	   	    android:gravity="center"
+	   	    android:orientation="horizontal">
+	  	    
+	  	    <Button
+		        android:id="@+id/button_create"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:drawableLeft="@android:drawable/ic_menu_add"
+		        android:text="@string/save"
+		        android:textColor="@drawable/slidebarbuttons"
+		        android:background="@drawable/slidebarbuttonsbackground" />
+	  	    
+	  	     <View
+	  	            android:id="@+id/verticalLine"
+		            android:layout_width="3dp"
+		            android:layout_height="fill_parent"
+		            android:orientation="vertical"
+		            android:background="@color/LightGrey"/>
+
+	    	<Button
+		        android:id="@+id/button_clear"
+		        android:layout_width="wrap_content"
+		        android:layout_height="fill_parent"
+		        android:layout_weight="1.0"
+		        android:drawableLeft="@android:drawable/ic_menu_delete"
+		        android:text="@string/clear"
+		        android:textColor="@drawable/slidebarbuttons"
+		        android:background="@drawable/slidebarbuttonsbackground" />
+	  	</LinearLayout>
+
+</LinearLayout>

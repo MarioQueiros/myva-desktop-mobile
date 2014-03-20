@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Project fonts
+   ========================================================================== */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url('../fonts/Roboto300.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Orbitron-Medium'), url('../fonts/Orbitron500.woff') format('woff');
+}

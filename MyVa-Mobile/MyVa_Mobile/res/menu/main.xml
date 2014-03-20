@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_synchronize"
+        android:icon="@drawable/ic_action_refresh"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/sync">
+    </item>
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_action_new"
+        android:orderInCategory="101"
+        android:showAsAction="always"
+        android:title="@string/new_event"/>
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="102"
+        android:showAsAction="always"
+        android:title="@string/overflow">
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:icon="@drawable/ic_action_settings"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/action_settings"/>
+            <item
+                android:id="@+id/action_help"
+                android:icon="@drawable/ic_action_help"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/help"/>
+             <item
+                android:id="@+id/action_logout"
+                android:icon="@drawable/action_icon_logout"
+                android:showAsAction="ifRoom|withText"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+
+</menu>

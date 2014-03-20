@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/js/script.js</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/Slim/Middleware/HMACAuth.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/index.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/Test.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/Login.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/AddEvent.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/EditEvent.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/GetPublicLocals.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/ResendConfirmationEmail.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/Register.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/Utils.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/index.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/AddPrivateLocal.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/GetPrivateLocals.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/GetEvents.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/GetAllEvents.php</file>
+            <file>file:/C:/Users/MpApQ/Desktop/Dropbox/MyVa-Desktop/php/var/www/api/api/class/DeleteEvent.php</file>
+        </group>
+    </open-files>
+</project-private>
